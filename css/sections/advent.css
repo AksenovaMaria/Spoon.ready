@@ -1,0 +1,47 @@
+.advert {
+    margin-top: 127px;
+}
+
+.advert__conteiner{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.advert > .conteiner__decoration{
+    padding-bottom: 115px;
+}
+
+.conteiner__decoration {
+}
+
+.advert__contant {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(39%);
+    text-align: center;
+}
+.info {
+}
+.advent {
+}
+.info__important {
+}
+.advert__info {
+    font-size: 24px;
+    margin-top: 115px;
+}
+.advert .extra-info {
+    margin-top: 8px;
+}
+
+
+@media(max-width:1400px){
+    .advert__contant{
+        text-align: start;
+        transform: translateX(0);
+    }
+}
+
+

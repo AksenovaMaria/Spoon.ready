@@ -1,0 +1,77 @@
+.offers {
+    margin-top: 120px;
+}
+.conteiner {
+}
+.offers > .conteiner__decoration {
+    padding-bottom: 120px;
+}
+.offers__content {
+}
+.offers__list {
+}
+.offers__item {
+    display: flex;
+    column-gap: 100px;
+}
+.offers__item:last-child{
+    margin-top: 90px;
+    margin-left: 230px;
+}
+
+
+.offers__item-info {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+}
+
+.info {
+}
+.offers__info {
+    font-size: 24px;
+}
+.info__important {
+}
+.text {
+}
+.offers__text {
+    font-size: 13px;
+}
+.offers__info-title {
+}
+.extra-info {
+}
+
+.offers__info-block{
+    margin-top: 110px;
+    text-align: center;
+}
+
+/* не изменилась высота  */
+
+.offers__extra-info{
+    margin-top: 12px;
+}
+
+@media(max-width:1120px){
+    .offers__item:last-child{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:840px){
+    .offers__item{
+        flex-wrap: wrap;
+    }
+    .offers__item-info{
+        max-width: 100%;
+        margin-top: 15px;
+        row-gap: 10px;
+    }
+    .offers__item:last-child img{
+        order: -1;
+    }
+}
